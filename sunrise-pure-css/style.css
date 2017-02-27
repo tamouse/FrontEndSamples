@@ -1,0 +1,22 @@
+body, div {margin:0;padding:0}
+
+.sky {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 66vh;
+  min-width: 100%;
+  background-image: radial-gradient(circle at bottom center, yellow 50px, #fccc00 , yellow, #fc6600, darkred 200px, #60f, #000 );
+
+}
+
+.foreground {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 34vh;
+  min-width: 100%;
+
+  background-image: radial-gradient( at top center, yellow 10%, #cc3300 25%, #003 50%);
+  z-index: 10;
+}
